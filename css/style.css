@@ -1,0 +1,119 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.clear-fix{
+    clear: both;
+}
+
+ul, li{
+    list-style-type: none;
+}
+/* Typography */
+
+h1{
+    font-size: 2rem;
+    line-height: 2.2rem;
+}
+
+h2{
+    font-size: 1.8rem;
+    line-height: 2.0rem;
+}
+
+h3{
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+}
+
+h4{
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+h5{
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+}
+
+h6{
+    font-size: 0.8rem;
+    line-height: 1rem;
+}
+/* Layout */
+
+header{
+ 
+}
+
+main{
+    background-color: green;
+    height: 100px;
+}
+
+footer{
+    background-color: blue;
+    height: 100px;
+}
+
+#top-row{
+    background-color: aqua;
+    height: fit-content;
+  
+}
+
+#nav-row{
+    background-color: rgb(255, 208, 0);
+    height: 50px;
+}
+#bottom-row{
+    background-color: rgb(255, 0, 212);
+    height: 50px;
+}
+#logo{
+    float: left;
+    height: 60px;
+    padding: 10px 5px 5px 300px;
+
+
+}
+#top-nav{
+    float: right;
+    margin-right:300px;
+}
+#top-nav div:first-child{
+    
+    float: right;
+    
+}
+#top-nav div:first-child li{
+    float: left;
+    overflow: hidden;
+    margin: 10px;
+    font-size: 0.6rem;
+}
+#top-nav div:last-child{
+    background-color: rgb(255, 0, 0);
+
+}
+#top-nav div:last-child nav{
+    float: left;
+}
+#top-nav div:last-child nav li{
+    float: left;
+    margin: 10px;
+    font-size: 0.7rem;
+}
+#top-nav div:last-child ul{
+    float: right;
+}
+#top-nav div:last-child ul li{
+    float: right;
+    margin: 10px;
+}
+
+
+

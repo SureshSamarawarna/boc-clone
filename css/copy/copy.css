@@ -1,0 +1,144 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+/* Typography */
+
+h1{
+    font-size: 2rem;
+    line-height: 2.2rem;
+}
+
+h2{
+    font-size: 1.8rem;
+    line-height: 2.0rem;
+}
+
+h3{
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+}
+
+h4{
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+h5{
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+}
+
+h6{
+    font-size: 0.8rem;
+    line-height: 1rem;
+}
+
+/* Layout */
+
+header{
+    background-color: yellow;
+}
+
+main{
+    background-color: green;
+}
+
+footer{
+    background-color: blue;
+}
+
+.container{
+    /* width: 1170px; */
+    overflow: hidden;
+}
+
+nav, ul{
+    overflow: hidden;
+}
+
+/* Header */
+
+#top-row{
+    padding: 10px 0;
+    height: 80px;
+}
+
+#top-row>.container{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#top-row>.container>img{
+    float: left;
+}
+
+#top-row>.container>div{
+    background-color: red;
+    float: right;
+    overflow: hidden;
+}
+
+#nav-row{
+    background-color: aqua;
+}
+
+#logo{
+    height: 60px;
+    padding-left: 8px;
+}
+
+nav li{
+    cursor: pointer;
+}
+
+nav li:hover{
+    text-decoration: underline;
+}
+
+#nav-lang li{
+    float: right;
+    padding: 5px 15px 5px 0;
+    font-size: 0.8rem;
+}
+
+#nav-lang li:hover{
+    color: #ff9d1e;
+}
+
+#main-nav{
+    float: left;
+}
+
+#nav-lang{
+    padding-bottom: 5px;
+}
+
+#main-nav li{
+    float: left;
+    padding: 20px 20px 0;
+    font-size: 0.8rem;
+}
+
+#smi-container{
+    padding-top: 7px;
+}
+
+#smi-container li{
+    float: left;
+    padding: 5px;
+    background-color: yellow;
+    margin-left: 10px;
+}
+
+#smi-container li ion-icon{
+    vertical-align: baseline;
+}
