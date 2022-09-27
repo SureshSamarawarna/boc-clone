@@ -1,0 +1,26 @@
+#outer-div{
+    position: absolute;
+    background-color: yellow;
+    width: 250px;
+    height: 250px;
+
+}
+#div-1{
+    position: relative;
+    background-color: red;
+    width: 75px;
+    height: 75px;
+    left: 0;
+    top: 0;
+   
+}
+#div-2{
+    position: absolute;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    left: 50px;
+  
+
+}
+
