@@ -6,23 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test</title>
     <style>
-        header{
+        #outer-box{
             background-color: yellow;
             overflow: hidden;
+         
         }
-        header img{
+        #inner-box-1{
             float: left;
+            background-color: aqua;
+            height: 100px;
+            width: 100px;
         }
-        header div{
+        #inner-box-2{
             float: right;
+            background-color: blue;
+            height:150px;
+            width: 150px;
         }
+      
     </style>
 </head>
 <body>
-    <header>
-        <img src="https://www.boc.lk/catalog/view/theme/default/images/new/boc-logo.jpg" alt="Boc-Logo">
-        <div>lorem</div>
-    </header>
+    <div id="outer-box">
+        <div id="inner-box-1"></div>
+        <div id="inner-box-2"></div>
+    </div>
+
     
 </body>
 </html>
