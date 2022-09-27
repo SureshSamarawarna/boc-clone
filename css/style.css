@@ -8,7 +8,11 @@
 .clear-fix{
     clear: both;
 }
-
+.clear-fix::after{
+    display: block;
+    content: "";
+    clear: both;
+}
 /* Typography */
 
 h1{
@@ -39,4 +43,16 @@ h5{
 h6{
     font-size: 0.8rem;
     line-height: 1rem;
+}
+
+/* layout */
+
+#app-row{
+    background-color: aqua;
+}
+#nav-row{
+    background-color: rgb(94, 255, 0);
+}
+#misc-row{
+    background-color: rgb(183, 0, 255);
 }
