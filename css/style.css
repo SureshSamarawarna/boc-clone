@@ -446,7 +446,7 @@ main>.row:nth-child(2)>.container>.col:last-child>ul>li{
     display: table;
     text-transform: uppercase;
     font-size: 0.9rem;
-    width: 100%;      
+    width: 100%;
     border-bottom: 1px solid #ccc;
 }
 
@@ -489,7 +489,7 @@ main>.row:nth-child(2)>.container>.col:last-child>ul>li>a>div:first-child{
     height: 100%;
     overflow: hidden;
     scroll-behavior: smooth;
-    scroll-snap-type: x mandatory;    
+    scroll-snap-type: x mandatory;
 }
 
 .slide{

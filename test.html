@@ -4,34 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
+    <title>Document</title>
     <style>
         #outer-box{
+            /* position: relative; */
             background-color: yellow;
-            overflow: hidden;
-         
+            /* overflow: hidden; */
+            /* display: flow-root; */
         }
-        #inner-box-1{
+
+        /* .clearfix{
+            clear:both;
+        }
+
+        .clearfix::after{
+            display: block;
+            content: " ";
+            clear: both;
+        } */
+
+        #inner-box{
             float: left;
-            background-color: aqua;
-            height: 100px;
-            width: 100px;
+            background-color: red;
+            height: 250px;
+            width: 250px;
         }
-        #inner-box-2{
-            float: right;
-            background-color: blue;
-            height:150px;
-            width: 150px;
-        }
-      
     </style>
 </head>
 <body>
-    <div id="outer-box">
-        <div id="inner-box-1"></div>
-        <div id="inner-box-2"></div>
-    </div>
-
-    
+<div id="outer-box" class="clearfix">
+    <!-- ::before -->
+    <div id="inner-box"></div>
+    <!-- ::after -->
+</div>
 </body>
 </html>
